@@ -93,7 +93,7 @@ namespace CSharp8
         /// <summary>
         /// Demonstrates calling all the features in one method: loading numbers, processing files, and async file loading.
         /// </summary>
-        public static async Task Run()
+        public static  void Run()
         {
             var demo = new UsingDeclarationDemo();
 
@@ -116,7 +116,7 @@ namespace CSharp8
             demo.ProcessMultipleFilesInSingleUsingStatement();
 
             Console.WriteLine("\n====Loading file asynchronously:====");
-            await LoadFileAsync(numbersFilePath);
+             LoadFileAsync(numbersFilePath).Wait();
         }
 
         /// <summary>
@@ -169,7 +169,7 @@ namespace CSharp8
                 string line;
                 while ((line = await _reader.ReadLineAsync()) != null)
                 {
-                    Console.WriteLine($"Reading from {filePath}: {line}");
+                    Console.WriteLine($"{line}");
                 }
             }
             catch (FileNotFoundException ex)

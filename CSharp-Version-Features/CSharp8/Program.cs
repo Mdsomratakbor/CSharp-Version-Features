@@ -26,7 +26,7 @@ Console.WriteLine("\n------------------------\n");
 Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.WriteLine("===== Running UsingDeclarationDemo =====");
 Console.ResetColor();
-await UsingDeclarationDemo.Run();
+UsingDeclarationDemo.Run();
 
 
 Console.WriteLine("\n------------------------\n");
@@ -42,4 +42,4 @@ Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Execution completed. Press any key to exit...");
 Console.ResetColor();
 
-Console.ReadKey(); 
+Console.ReadKey();
