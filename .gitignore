@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CSharp-Version-Features/.vs
+/CSharp-Version-Features/CSharp10/obj
+/CSharp-Version-Features/CSharp8/obj
+/CSharp-Version-Features/CSharp9/obj
