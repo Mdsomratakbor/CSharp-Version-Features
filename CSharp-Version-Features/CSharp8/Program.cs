@@ -38,6 +38,14 @@ StaticLocalFunctionDemo.Run();
 
 Console.WriteLine("\n------------------------\n");
 
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("===== Running DisposablerefstructsDemo =====");
+Console.ResetColor();
+DisposableRefStructDemo.Run();
+
+
+Console.WriteLine("\n------------------------\n");
+
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Execution completed. Press any key to exit...");
 Console.ResetColor();
