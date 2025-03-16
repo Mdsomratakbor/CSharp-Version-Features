@@ -43,7 +43,21 @@ Console.WriteLine("===== Running DisposablerefstructsDemo =====");
 Console.ResetColor();
 DisposableRefStructDemo.Run();
 
+Console.WriteLine("\n------------------------\n");
 
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.WriteLine("===== Running NullableReferenceDemo =====");
+Console.ResetColor();
+NullableReferenceDemo.Run();
+
+
+
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.DarkYellow;
+Console.WriteLine("===== Running NullCoalescingAssignmentDemo =====");
+Console.ResetColor();
+NullCoalescingAssignmentDemo.Run();
 Console.WriteLine("\n------------------------\n");
 
 Console.ForegroundColor = ConsoleColor.Green;
