@@ -58,6 +58,15 @@ Console.ForegroundColor = ConsoleColor.DarkYellow;
 Console.WriteLine("===== Running NullCoalescingAssignmentDemo =====");
 Console.ResetColor();
 NullCoalescingAssignmentDemo.Run();
+
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("===== Running IndicesRangesDemo =====");
+Console.ResetColor();
+IndicesRangesDemo.Run();
+
+
 Console.WriteLine("\n------------------------\n");
 
 Console.ForegroundColor = ConsoleColor.Green;
