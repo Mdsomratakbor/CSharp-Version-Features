@@ -66,6 +66,27 @@ Console.WriteLine("===== Running IndicesRangesDemo =====");
 Console.ResetColor();
 IndicesRangesDemo.Run();
 
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("===== Running UnmanagedConstructedTypesDemo =====");
+Console.ResetColor();
+UnmanagedConstructedTypesDemo.Run();
+
+
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.DarkMagenta;
+Console.WriteLine("===== Running AsyncStreamDemo =====");
+Console.ResetColor();
+await AsyncStreamDemo.Run();
+
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("===== Running StackallocInNestedExpressions =====");
+Console.ResetColor();
+StackallocInNestedExpressions.Run();
 
 Console.WriteLine("\n------------------------\n");
 
