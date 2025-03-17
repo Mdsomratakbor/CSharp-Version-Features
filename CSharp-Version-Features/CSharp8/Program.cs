@@ -90,6 +90,13 @@ StackallocInNestedExpressions.Run();
 
 Console.WriteLine("\n------------------------\n");
 
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("===== Running EnhancedInterpolatedStringsDemo =====");
+Console.ResetColor();
+EnhancedInterpolatedStringsDemo.Run();
+
+Console.WriteLine("\n------------------------\n");
+
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Execution completed. Press any key to exit...");
 Console.ResetColor();
