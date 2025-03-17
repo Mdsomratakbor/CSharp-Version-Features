@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSharp9;
+
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("===== Running RecordsDemo =====");
+Console.ResetColor();
+RecordsDemo.Run();
+
+
+
+Console.ReadKey();

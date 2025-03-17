@@ -32,7 +32,7 @@ namespace CSharp8
             Point p = new Point(2, 3);
             p.Print();
 
-            p.Move(1, 1);  // ✅ Modifies struct data
+            p.Move(1, 1);  
             p.Print();
 
             Console.WriteLine("\n=== Readonly Struct (Immutable) Example ===");
