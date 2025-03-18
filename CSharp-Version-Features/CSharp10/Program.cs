@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("===== Running RecordsStructsDemo =====");
+Console.ResetColor();
+RecordsStructsDemo.Run();
+
+
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Execution completed. Press any key to exit...");
+Console.ResetColor();
+
+Console.ReadKey();
