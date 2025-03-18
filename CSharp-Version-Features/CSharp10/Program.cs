@@ -39,6 +39,12 @@ Console.WriteLine("===== Running DeconstructionDemo =====");
 Console.ResetColor();
 DeconstructionDemo.Run();
 
+Console.WriteLine("\n------------------------\n");
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("===== Running CallerArgumentExpressionDemo =====");
+Console.ResetColor();
+CallerArgumentExpressionDemo.Run();
 
 Console.WriteLine("\n------------------------\n");
 
