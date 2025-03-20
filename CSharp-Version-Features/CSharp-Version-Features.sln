@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{4697F25C-614B-42DA-8A22-8DFAFAD2550B}"
 	ProjectSection(SolutionItems) = preProject
 		CSharp10\Documents\📄 C# 10.0 Features.docx = CSharp10\Documents\📄 C# 10.0 Features.docx
+		C:\Users\User\Downloads\📄 C# 11.0 Features.docx = C:\Users\User\Downloads\📄 C# 11.0 Features.docx
 		CSharp8\Document\📄 C# 8.0 Features.docx = CSharp8\Document\📄 C# 8.0 Features.docx
 		CSharp9\Documents\📄 C# 9.0 Features.docx = CSharp9\Documents\📄 C# 9.0 Features.docx
 	EndProjectSection
