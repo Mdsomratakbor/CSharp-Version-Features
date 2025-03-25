@@ -1,9 +1,57 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-*/.vs
-*/obj
-*/bin
+
+# User-specific files
+.vs/
+.vs2019/
+.vs2017/
+.idea/
+
+# User-specific files (Windows)
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# User-specific files (macOS/Linux)
+.vscode/
+
+# Build Folders (bin, obj, etc.)
+*/obj/
+*/bin/
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]evelopment/
+[Dd]evelopmentPublic/
+[Dd]ebug-AnyCPU/
+[Dd]ebug-x64/
+[Dd]ebug-x86/
+Release/
+Release-AnyCPU/
+Release-x64/
+Release-x86/
+
+# Uncomment if you have tasks that run during build
+# Grunt or Gulp tasks
+node_modules/
+
+# ASP.NET Scaffolding
+Scaffolding/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer generated files
+*.pdb
+*.idb
+
+# User-specific files for specific versions of the project
 /CSharp-Version-Features/.vs
 /CSharp-Version-Features/CSharp10/obj
 /CSharp-Version-Features/CSharp8/obj
@@ -12,3 +60,13 @@
 /CSharp-Version-Features/CSharp11/bin
 /CSharp-Version-Features/CSharp10/bin
 /CSharp-Version-Features/CSharp8/bin
+
+# Windows Installer generated files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.pdb
+*.idb
