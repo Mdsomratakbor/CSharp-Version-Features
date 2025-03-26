@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj": {}
+    "D:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj": {
+    "D:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj",
+        "projectUniqueName": "D:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj",
         "projectName": "CSharp12",
-        "projectPath": "d:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj",
+        "projectPath": "D:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\CSharp12.csproj",
         "packagesPath": "C:\\Users\\MS5702060\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\obj\\",
+        "outputPath": "D:\\Projects\\Backend\\CSharp-Version-Features\\CSharp-Version-Features\\CSharp12\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MS5702060\\AppData\\Roaming\\NuGet\\NuGet.Config"

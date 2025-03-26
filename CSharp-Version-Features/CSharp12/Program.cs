@@ -32,6 +32,16 @@ Console.ResetColor();
 AliasAnyDemo.Run();
 Console.WriteLine("\n------------------------\n");
 
+
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("===== Running InlineArraysDemo =====");
+Console.ResetColor();
+InlineArraysDemo.Run();
+Console.WriteLine("\n------------------------\n");
+
+
+
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Execution completed. Press any key to exit...");
 Console.ResetColor();
