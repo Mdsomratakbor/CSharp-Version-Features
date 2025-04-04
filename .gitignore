@@ -70,3 +70,5 @@ Scaffolding/
 # Windows Installer files
 *.pdb
 *.idb
+/CSharp-Version-Features/CSharp12/obj
+/CSharp-Version-Features/CSharp13/obj
