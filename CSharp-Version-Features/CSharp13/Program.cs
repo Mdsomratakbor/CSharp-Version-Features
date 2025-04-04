@@ -38,6 +38,19 @@ Console.ResetColor();
 await RefInIteratorsAndAsyncMethodsDemo.Run();
 Console.WriteLine("\n------------------------\n");
 
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("===== Running AllowsRefStructDemo =====");
+Console.ResetColor();
+AllowsRefStructDemo.Run();
+Console.WriteLine("\n------------------------\n");
+
+
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("===== Running RefStructInterfacesDemo =====");
+Console.ResetColor();
+RefStructInterfacesDemo.Run();
+Console.WriteLine("\n------------------------\n");
+
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Execution completed.");
 Console.ResetColor();
